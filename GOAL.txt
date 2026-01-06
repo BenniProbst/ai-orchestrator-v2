@@ -1,0 +1,25 @@
+# Example Goal: REST API Implementation
+
+## Description
+Create a basic REST API for task management with CRUD operations.
+This is an example goal file demonstrating the format.
+
+## Acceptance Criteria
+- [ ] Create project structure with proper directories
+- [ ] Implement GET endpoint for listing all tasks
+- [ ] Implement POST endpoint for creating tasks
+- [ ] Implement PUT endpoint for updating tasks
+- [ ] Implement DELETE endpoint for removing tasks
+- [ ] Add input validation for all endpoints
+- [ ] Write tests for all endpoints
+
+## Quality Requirements
+- All endpoints must return proper HTTP status codes
+- Error responses must include meaningful messages
+- Code must be well-documented
+- Tests must achieve >80% coverage
+
+## Constraints
+- Use Python with Flask or FastAPI
+- Use in-memory storage (no database required)
+- Follow RESTful conventions

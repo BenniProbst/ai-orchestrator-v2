@@ -1,0 +1,31 @@
+# Complex Goal: Authentication System
+
+## Description
+Implement a complete user authentication system with registration, login,
+password reset, and session management.
+
+## Acceptance Criteria
+- [ ] User registration with email validation
+- [ ] Secure password hashing (bcrypt)
+- [ ] JWT-based authentication
+- [ ] Login endpoint with rate limiting
+- [ ] Logout with token invalidation
+- [ ] Password reset flow with email tokens
+- [ ] Session management with refresh tokens
+- [ ] Role-based access control (RBAC)
+- [ ] API documentation with OpenAPI
+- [ ] Comprehensive test suite
+
+## Quality Requirements
+- Security audit must pass
+- No sensitive data in logs
+- OWASP compliance
+- 90%+ test coverage
+- Load testing for 1000 concurrent users
+
+## Constraints
+- Python 3.11+
+- FastAPI framework
+- PostgreSQL database
+- Redis for session storage
+- Docker deployment ready

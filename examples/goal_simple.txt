@@ -1,0 +1,17 @@
+# Simple Goal: Hello World Function
+
+## Description
+Create a simple hello world function that greets a user by name.
+
+## Acceptance Criteria
+- [ ] Create a function that accepts a name parameter
+- [ ] Function returns "Hello, {name}!"
+- [ ] Handle empty name with default "World"
+- [ ] Add unit tests
+
+## Quality Requirements
+- Function must be type-hinted
+- Include docstring
+
+## Constraints
+- Pure Python, no dependencies

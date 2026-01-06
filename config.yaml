@@ -1,0 +1,35 @@
+orchestrator:
+  max_iterations: 20
+  timeout_seconds: 300
+  checkpoint_interval: 5
+  strict_verification: true
+  max_correction_attempts: 3
+
+roles:
+  master: claude
+  worker: codex
+
+agents:
+  claude:
+    command: claude
+    timeout: 120
+    sandbox: true
+    json_output: true
+  codex:
+    command: codex
+    timeout: 300
+    sandbox: true
+    full_auto: true
+    json_output: true
+
+goal:
+  file: GOAL.txt
+  validation_strict: true
+
+logging:
+  level: INFO
+  file: sessions/orchestrator.log
+
+session:
+  auto_save: true
+  checkpoint_interval: 5
