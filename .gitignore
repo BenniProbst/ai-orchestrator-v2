@@ -43,8 +43,9 @@ htmlcov/
 # Type checking
 .mypy_cache/
 
-# Sessions and checkpoints
-sessions/
+# Sessions and checkpoints (keep documentation)
+sessions/*.json
+sessions/*.log
 *.checkpoint.json
 
 # Orchestrator state files
